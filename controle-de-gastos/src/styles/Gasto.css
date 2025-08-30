@@ -1,0 +1,49 @@
+.gasto-item {
+    background-color: #2c3e50;
+    border: 1px solid #455a64;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.gasto-item:hover {
+    background-color: #34495e;
+    border-color: var(--cor-secundaria);
+    transform: translateY(-2px);
+}
+
+.gasto-item div {
+    display: flex;
+    gap: 1.5rem; /* Espaço entre os parágrafos */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha se necessário */
+}
+
+.gasto-item p {
+    margin: 0;
+    color: #f4f4f4;
+}
+
+.gasto-item p:first-child {
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+.gasto-item button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.gasto-item button:hover {
+    background-color: #c0392b;
+}

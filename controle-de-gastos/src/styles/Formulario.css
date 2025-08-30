@@ -1,0 +1,67 @@
+.formulario-container {
+  background-color: var(--cor-card);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px var(--cor-sombra);
+  border: 1px solid #3f5161;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario-container h2 {
+  text-align: center;
+  color: var(--cor-principal);
+  margin-bottom: 1.5rem;
+}
+
+.formulario-container form {
+  width: 100%;
+}
+
+.formulario-container form div {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-container label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--cor-principal);
+}
+
+.formulario-container input,
+.formulario-container select {
+  padding: 0.75rem;
+  border: 1px solid #455a64; /* Uma borda um pouco mais clara */
+  background-color: #3f5161; /* Fundo dos inputs */
+  color: var(--cor-principal);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.formulario-container input:focus,
+.formulario-container select:focus {
+  outline: none;
+  border-color: var(--cor-secundaria);
+  box-shadow: 0 0 0 2px rgba(0, 188, 212, 0.2);
+}
+
+.formulario-container button {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--cor-secundaria);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-container button:hover {
+  background-color: #0097a7; /* Um tom de verde-água mais escuro */
+}

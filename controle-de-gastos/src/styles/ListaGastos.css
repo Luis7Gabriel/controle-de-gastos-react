@@ -1,0 +1,23 @@
+.lista-gastos {
+  background-color: var(--cor-card);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px var(--cor-sombra);
+  border: 1px solid #3f5161;
+}
+
+.lista-gastos h2 {
+  text-align: center;
+  color: var(--cor-principal);
+  margin-bottom: 1.5rem;
+}
+
+.lista-gastos ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-gastos ul li:last-child {
+  margin-bottom: 0;
+}

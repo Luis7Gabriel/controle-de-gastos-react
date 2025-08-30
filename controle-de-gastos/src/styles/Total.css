@@ -1,0 +1,23 @@
+.total-container {
+  background-color: var(--cor-card);
+  color: var(--cor-principal);
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px var(--cor-sombra);
+  border: 1px solid #3f5161;
+}
+
+.total-container h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.total-container h2 {
+  margin: 0.5rem 0 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--cor-secundaria);
+}

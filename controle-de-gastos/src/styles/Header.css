@@ -1,0 +1,21 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.header-container {
+  background-color: var(--cor-card);
+  color: var(--cor-secundaria);
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 4px 6px var(--cor-sombra);
+  margin-bottom: 2rem;
+}
+
+.header-container h1 {
+  margin: 0;
+  font-size: 2rem;
+}
